@@ -1,0 +1,50 @@
+body {
+    background-color:brown;
+    color:coral;
+}
+
+img {
+    max-width: 100%;
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.coluna-normal {
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna-reversa {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color:coral;
+        color:brown;
+    }
+
+    img {
+        max-width:100%;
+        margin: 5px;
+    }
+
+    .flex-container {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .coluna {
+        display: flex;
+        flex-direction: column;
+    }
+}
